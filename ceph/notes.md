@@ -1,3 +1,19 @@
+# Prérequis pour rouler les scripts
+Faire un fichier `secrets.py` (`ceph-test/secrets.py`) avec 
+
+```python
+# secrets.py
+access_key = 'votre-access-key'
+secret_keys = 'votre-secret-key'
+```
+
+# Stocker un objet (ex. image)
+1. Créer un bucket (s'il n'est pas déjà créé)
+    - Le bucket est le "réservoir" de données d'un projet
+    - voir `create_bucket.py`
+1. Stockage d'un objet
+    - voir `store_object.py`
+
 # Configuration des notifications
 
 Pour ajouter une notification, il faut :
