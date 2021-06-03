@@ -2,7 +2,7 @@ import boto3
 from botocore.config import Config
 
 import secrets
-from ceph import config
+import config
 
 s3 = boto3.client(
     service_name='s3',

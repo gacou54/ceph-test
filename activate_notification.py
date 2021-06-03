@@ -1,5 +1,5 @@
-from ceph import config
-from ceph.client import s3
+import config
+from client import s3
 
 
 response = s3.put_bucket_notification_configuration(

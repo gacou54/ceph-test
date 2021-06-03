@@ -1,5 +1,5 @@
-from ceph import config
-from ceph.client import sns
+import config
+from client import sns
 
 if __name__ == '__main__':
     response = sns.create_topic(
