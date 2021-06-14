@@ -2,7 +2,12 @@
 
 !.gitignore
 
-!*.py
+!ceph/
+!ceph/**
+
+!rabbitmq/
+!rabbitmq/**
+
 !data/
 !data/**
 
