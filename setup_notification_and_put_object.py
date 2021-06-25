@@ -1,10 +1,11 @@
 import config
 from ceph.create_notification import create_sns_notification
-from ceph.create_topic import create_http_topic
+from ceph.create_topic import create_http_topic, create_amqp_topic
 from client import s3
 
 print('Create topic')
-response = create_http_topic()
+# response = create_http_topic()
+response = create_amqp_topic(persistent=True)
 
 print('Create notification')
 response = create_sns_notification()
