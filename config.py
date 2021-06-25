@@ -1,4 +1,4 @@
-MY_IP = '132.203.240.96'
+MY_IP = '132.203.240.120'
 # MY_IP = 'debug-http-server.apps.valeria.science'
 
 HOST = 'https://s3at.valeria.science'
@@ -7,6 +7,7 @@ A_KEY = 'a-key'
 AN_ID = 'an-id'
 TOPIC_NAME = 'a-topic'
 TOPIC_ARN = 'arn:aws:sns:ul::a-topic'
+SUB_NAME = 'a-name'
 
 RABBITMQ_QUEUE = 'medics'
 RABBITMQ_EXCHANGE = 'medics'

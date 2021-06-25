@@ -5,7 +5,7 @@ from client import s3
 
 print('Create topic')
 # response = create_http_topic()
-response = create_amqp_topic(persistent=True)
+response = create_amqp_topic(persistent=False)
 
 print('Create notification')
 response = create_sns_notification()
