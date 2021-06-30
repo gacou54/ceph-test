@@ -9,5 +9,5 @@ TOPIC_NAME = 'a-topic'
 TOPIC_ARN = 'arn:aws:sns:ul::a-topic'
 SUB_NAME = 'a-name'
 
-RABBITMQ_QUEUE = 'medics'
+RABBITMQ_IP = 'localhost'
 RABBITMQ_EXCHANGE = 'medics'

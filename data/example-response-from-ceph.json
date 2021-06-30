@@ -1,0 +1,53 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.2",
+      "eventSource": "ceph:s3",
+      "awsRegion": "",
+      "eventTime": "2021-06-23T18:21:39.959078Z",
+      "eventName": "s3:ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "gacou54"
+      },
+      "requestParameters": {
+        "sourceIPAddress": ""
+      },
+      "responseElements": {
+        "x-amz-request-id": "30ac01a0-a5c1-430c-8919-e248cbee8a97.2274715.242",
+        "x-amz-id-2": "22b59b-campusatcc-ul"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "an-id",
+        "bucket": {
+          "name": "medics-tmp",
+          "ownerIdentity": {
+            "principalId": "gacou54"
+          },
+          "arn": "arn:aws:s3:::medics-tmp",
+          "id": "30ac01a0-a5c1-430c-8919-e248cbee8a97.2164730.1"
+        },
+        "object": {
+          "key": "a-key",
+          "size": 3890,
+          "etag": "19fb9cbbea20513c8d6e848327d07e2e",
+          "versionId": "",
+          "sequencer": "B37BD360409A7C39",
+          "metadata": [
+            {
+              "key": "x-amz-content-sha256",
+              "val": "UNSIGNED-PAYLOAD"
+            },
+            {
+              "key": "x-amz-date",
+              "val": "20210623T182139Z"
+            }
+          ],
+          "tags": []
+        }
+      },
+      "eventId": "1624472499.964467.19fb9cbbea20513c8d6e848327d07e2e",
+      "opaqueData": ""
+    }
+  ]
+}

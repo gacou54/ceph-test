@@ -9,7 +9,7 @@ def callback(ch, method, properties, body):
 
 if __name__ == '__main__':
     connection = pika.BlockingConnection(
-        pika.ConnectionParameters(host='localhost')
+        pika.ConnectionParameters(host=config.RABBITMQ_IP)
     )
     channel = connection.channel()
 
